@@ -1,0 +1,25 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{33DA5124-4829-8748-7EFF-E09CB4E2BFB9}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "UE_Plugin_EnhancedInputSequence",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"EnhancedInput"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		}
+	]
+}
